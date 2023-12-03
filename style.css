@@ -1,0 +1,76 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  letter-spacing: 1px;
+  page-break-inside: avoid;
+}
+
+:root {
+  --fontColor: #2f2f2f;
+  --fontColorHeader: #efefef;
+  --whiteFont: #f5f5f5;
+  --yellow: #f5c014;
+  --yellowHover: #f5ea4f;
+  --bkgColor: #efefef;
+  --shadow: #575757;
+  --footer: #141414;
+  --white: #f9f9f9;
+  --header: #000000;
+}
+
+.header {
+  background: url("img/header.jpg") no-repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  background-position: center 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.header,
+header {
+  position: relative;
+  min-height: 950px;
+  max-height: 1080px;
+}
+
+.logo {
+  background: url("img/logo.png") no-repeat;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-left: auto;
+  top: 50%;
+  left: 50%;
+  width: 532px;
+  height: 450px;
+  margin-top: -350px;
+  margin-left: -266px;
+  overflow: hidden;
+}
+
+#about {
+  background-image: url("img/border_1.png");
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  background-position: center 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 142px;
+  z-index: 99998;
+}
